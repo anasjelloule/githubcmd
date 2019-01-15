@@ -1,0 +1,59 @@
+/* First create project voyager */
+
+git init
+git add .
+git commit -m "first voyager"
+git remote add origin https://github.com/anasjelloule/voyager.git
+
+
+/* get project from github in first */
+
+ git clone https://github.com/anasjelloule/voyager.git
+
+
+/* send project to github secondary */
+git add .
+git push origin master 
+
+
+/* get project  modifier */
+git pull origin master
+
+/* nouvelle brach */
+git branch nouvelle-branche
+
+/* change la brach */
+git checkout nouvelle-branche
+
+/* créer une branche et vous y positionner */
+git checkout -b ma-branche 
+
+
+/* git config  */
+git config --global user.name "anasjelloule"
+git config --global user.email "anasjelloule@gmail.com"
+
+/* get project from branch connect */
+git pull origin branche
+
+/* structure project */
+
+            //Récupérez le repo auquel vous souhaitez contribuer
+            git clone https://github.com/votre-username/intro-git-github.git
+
+            //Faites vos modifications
+            git checkout -b my-new-feature
+            
+            //add . to uploaded
+            git add .
+            
+
+            //vos modifications dans la nouvelle branche et "committez"-les dans Git
+            git commit -m "Added feature allowing users to comment on the blog articles"
+
+            //Envoyez vos modifications sur GitHub en faisant un git push de votre nouvelle branche : 
+            git push origin my-new-feature
+
+            //git clone 
+             git fetch origin 3a6b9d15b27048084fbd9e8b95030e4fb4684c8e
+             git checkout
